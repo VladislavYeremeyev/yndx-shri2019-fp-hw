@@ -1,4 +1,3 @@
-import {withProps} from 'recompose';
+import { withProps } from "recompose";
 
-
-export default withProps({size: "medium"});
+export default withProps({ size: "medium" });
