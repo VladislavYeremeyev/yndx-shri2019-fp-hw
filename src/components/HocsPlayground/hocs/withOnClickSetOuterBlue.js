@@ -1,8 +1,7 @@
-import {withHandlers} from 'recompose';
-
+import { withHandlers } from "recompose";
 
 export default withHandlers({
-    onClick: ({setOuterColor}) => () => {
-        setOuterColor('blue');
-    },
+  onClick: ({ setOuterColor }) => () => {
+    setOuterColor("blue");
+  }
 });

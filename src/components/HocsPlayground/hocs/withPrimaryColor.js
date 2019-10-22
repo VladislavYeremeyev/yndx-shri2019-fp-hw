@@ -1,4 +1,3 @@
-import {withProps} from 'recompose';
+import { withProps } from "recompose";
 
-
-export default withProps({color: "primary"});
+export default withProps({ color: "primary" });
