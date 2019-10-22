@@ -81,7 +81,12 @@ const HocsPlayground = () => {
           Уходящий counter
         </ButtonN4>
 
-        <ButtonN5 setDegree={setDegree} degree={degree} setOuterColor={setOuterColor} setInnerColor={setInnerColor}>
+        <ButtonN5
+          setDegree={setDegree}
+          degree={degree}
+          setOuterColor={setOuterColor}
+          setInnerColor={setInnerColor}
+        >
           {degree} Крутящаяся кнопка
         </ButtonN5>
       </div>
